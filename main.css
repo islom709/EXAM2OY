@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto 30px;
+  }
+  
+  .search-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input, select, button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+     background: #333333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .movie-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .box p {
+    margin: 5px 0;
+  }
+  
+  .summary {
+    font-size: 14px;
+    color: #555;
+  }
+  p{
+    color:  #FFFFFF;
+  }
+  h3{
+    color: #FFFFFF;
+  }
+  .category{
+    color: #FFFFFF;
+  }
+  .img{
+    border-radius: 10%;
+    width: 205px;
+  }
+  .btn{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+   flex-direction: column;
+   margin-left: 50px;
+    padding: 15px , 20px;
+    margin-top: 20px;
+  }
